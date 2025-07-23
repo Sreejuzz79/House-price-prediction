@@ -23,5 +23,5 @@ for epoch in range (100) :
   loss.backward ()
   optimizer.step ()
 
-  if epoch % 20 == 0 :
+  if epoch % 2 == 0 :
     print (f'epoch : {epoch} loss : {loss.item()}')
